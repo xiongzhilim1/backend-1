@@ -46,7 +46,7 @@ jobs:
 
           # (Optional, default: "")
           # Additional options of docker build command.
-          docker_options: "--no-cache, -port 80:3000"
+          docker_options: "--no-cache"
 
           # (Optional, default: "web")
           # Select the process type for which you want the docker container to be uploaded.
@@ -54,6 +54,6 @@ jobs:
           # For more information look at https://devcenter.heroku.com/articles/process-model
           process_type: web
           
-   
+            
           
 ### ⬆ IMPORTANT PART ⬆ ###
